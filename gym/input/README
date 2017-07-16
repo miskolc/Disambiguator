@@ -1,0 +1,98 @@
+
+This is the sense tagged "line" data, as used in numerous comparative 
+studies of word sense disambiguation methodologies. In brief, each 
+instance of line has been tagged with one of six WordNet senses. Further
+details can be found in the papers mentioned below. 
+
+Unix wc output:
+
+     373   17025   85709 cord2
+     376   19559  115350 division2
+     349   18196  105154 formation2
+     429   21472  124705 phone2
+    2218  117598  710036 product2
+     404   21473  124368 text2                                                 
+
+This data was first described in the following:
+
+@inproceedings{LeacockTV93,
+        author = {Leacock, C. and Towell, G. and Voorhees, E.},
+        title = {Corpus-Based Statistical Sense Resolution},
+        booktitle = {Proceedings of the ARPA Workshop on Human
+                  Language Technology},
+        month = {March},
+        pages = {260--265},
+        year = {1993}}       
+
+(Please credit Leacock et. al. with the creation of this data.  I am
+simply distributing this data and played no role in its creation.)
+
+It has since been used and described in the following:
+
+@inproceedings{Pedersen00b,
+        author = {Pedersen, T.},
+        title = {A Simple Approach to Building Ensembles of Naive Bayesian
+Classifiers for Word Sense Disambiguation},
+        booktitle = {Proceedings of the North American Chapter of the
+Association for Computational Linguistics},
+        year = {2000},
+        month ={May},
+        address = {Seattle, WA}}
+                                  
+@inproceedings{Pedersen98B,
+        author = {Pedersen, T. and Bruce, R.},
+        title = {Knowledge Lean Word Sense Disambiguation},
+        year = {1998},
+        booktitle= {Proceedings of the Fifteenth National Conference on
+                  Artificial Intelligence},
+        pages = {800--805},
+        month = {July},
+        address = {Madison, WI}}
+                                  
+@article{LeacockCM98,
+        author = {Leacock, C. and Chodorow, M. and Miller, G.},
+        title = {Using Corpus Statistics and {W}ord{N}et Relations for
+Sense Identification},
+        journal = {Computational Linguistics},
+        month = {March},
+        volume = {24},
+        number = {1},
+        pages = {147--165},
+        year = {1998}}
+                                  
+@inproceedings{PedersenB97C,
+        author = {Pedersen, T. and Bruce, R.},
+        title = {Distinguishing Word Senses in Untagged Text},
+        booktitle = {Proceedings of the Second Conference on Empirical
+                Methods in Natural Language Processing},
+        month = {August},
+        year = {1997},
+        pages = {197--207},
+        address = {Providence, RI}}       
+
+@inproceedings{PedersenB97A,
+        author = {Pedersen, T. and Bruce, R.},
+        title = {A New Supervised Learning Algorithm for Word Sense
+Disambiguation},
+        year = {1997},
+        booktitle= {Proceedings of the Fourteenth National Conference on
+                  Artificial Intelligence},
+        month = {July},
+        pages = {604--609},
+        address = {Providence, RI}}   
+
+@inproceedings{Mooney96,
+        author = {Mooney, R.},
+        title = {Comparative Experiments on Disambiguating Word
+                  Senses: An Illustration of the Role of Bias in
+                  Machine Learning },
+        booktitle={Proceedings of the Conference on Empirical Methods
+                  in Natural Language Processing},
+        month = {May},
+        pages = {82--91},
+        year = {1996}}      
+
+
+
+
+
